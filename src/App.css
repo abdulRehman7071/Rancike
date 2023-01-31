@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope';
+  color: #302B27;
+}
+
+.wrapper {
+  margin: 45px 100px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .wrapper {
+    margin: 18px 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .wrapper {
+    margin: 5px 10px;
+  }
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
