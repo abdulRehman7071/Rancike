@@ -11,7 +11,7 @@ const Navbar = () => {
                 }
             </span>
             <div>
-                <img src="/Logo.png" alt="" />
+                <img src="/Logo.png" alt="logo" />
             </div>
             <nav className={`${showNav ? 'show' : 'hide'}`}>
                 <ul>

@@ -34,6 +34,7 @@ label {
 
 .inputContainer {
     width: 80%;
+    position: relative;
 }
 
 input,
@@ -80,6 +81,16 @@ form>div>button {
     cursor: pointer;
 }
 
+.inputContainer>span {
+    color: #0370DD;
+    position: absolute;
+    right: 1px;
+    top: 2.5px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
 .eduBanner>img {
     width: 100%;
 }
@@ -118,6 +129,12 @@ form>div>button {
 
     .eduDetails>h1 {
         font-size: 36px;
+    }
+
+    form>div>button {
+        font-size: 18px;
+        padding: 15px 36px;
+        font-size: 14px;
     }
 }
 
